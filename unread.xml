@@ -12,7 +12,7 @@
 		</f:content>
 	</f:data>
 	<button>
-		<icon>icon.png</icon>
+		<icon>unread_icon.png</icon>
 		<text>
 		<style font-weight="bold">
                     <!-- использование функции склеивания строк -->
