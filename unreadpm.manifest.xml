@@ -1,0 +1,7 @@
+<manifest>
+	<package version="0.01" platform-min="1" url="http://www.searchengines.ru/bar/unread.zip" />
+<permissions>
+	<request domain="forum.searchengines.ru" level="private"/>
+	<navigate domain="forum.searchengines.ru"/>
+</permissions>
+</manifest>

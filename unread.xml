@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget name="Личные сообщения" icon="unread_icon.png" xmlns="http://bar.yandex.ru/dev/gui" xmlns:f="http://bar.yandex.ru/dev/functional">
+	<!--получаем данные -->
+	<f:data name="value">
+		<f:content>
+			<f:request>
+				<f:param name="url">
+					http://forum.searchengines.ru/pmunread.php
+				</f:param>
+				<f:param name="update">600</f:param>
+			</f:request>
+		</f:content>
+	</f:data>
+	<button>
+		<icon>icon.png</icon>
+		<text>
+		<style font-weight="bold">
+                    <!-- использование функции склеивания строк -->
+                    <f:concat>
+                        <!-- неразрывный пробел для отделения текста кнопки от счетчика -->
+                        &#160;
+                            <f:value-of name="value"/>             
+                    </f:concat>
+                </style>
+        </text>
+       	<tooltip>Количество личных сообщений на форуме</tooltip>
+       	<url>http://forum.searchengines.ru/private.php</url>
+    </button>
+</widget>

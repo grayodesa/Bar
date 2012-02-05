@@ -1,0 +1,6 @@
+<preset version="1">
+	<name>Личные сообщения</name>
+	<author>Searchengines.ru</author>
+	<icon>http://forumimg.net/unread_icon.png</icon>
+	<widget id="http://www.searchengines.ru/bar/unreadpm.manifest.xml#unread"/>
+</preset>
